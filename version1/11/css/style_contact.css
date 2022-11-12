@@ -1,0 +1,100 @@
+
+/* For contact us page */
+*{
+    background-color: darkgrey;
+}
+#creator{
+    background-color: azure;
+    color : black;
+    font-family :Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 40;
+    margin-bottom : 0px;
+    padding : 10px;
+}
+
+.detail_flow{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: burlywood;
+}
+
+.photo{
+    margin : 10px;
+    padding : 0px;
+    background-color: burlywood;
+    border : 4px solid maroon;
+    border-radius: 4px;
+}
+
+.photo img{
+    height : 250px ;
+    width : 250px;
+}
+
+.people{
+    padding : 30px;
+}
+
+.person{
+    background-color: burlywood;
+    border-radius: 5px ;
+    border : 5px solid black ;
+    margin-left : 10vw;
+    margin-right : 10vw;
+    margin-top : 10px;
+}
+
+.person p{
+    color : whitesmoke;
+}
+
+.person h3{
+    margin-top:0px;
+    padding : 15px;
+    text-decoration: none;
+    font-size : 1.5rem;
+    background-color: maroon;
+    color : whitesmoke;
+}
+
+.person a{
+    text-decoration: none;
+    color : black;
+    background-color: lightyellow;
+}
+
+.main_details{
+    display : flex ;
+    flex-direction: column;
+    margin : 5px ;
+    padding : 5px;
+    justify-content: center;
+    background-color: burlywood;
+}
+
+.details{
+    border : 1px solid black ;
+    background-color: lightyellow;
+    padding : 2px;
+    height : 5vh;
+    width : 40vw;
+    padding-top : 5px;
+    margin : 5px 5px 5px 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size :x-large;
+} 
+
+#return{
+    text-decoration: none;
+    background-color: azure;
+    color : black ;
+    padding : 20px;
+    font-weight: 300;
+}
+
+#return :hover{
+    cursor: pointer;
+    background-color: black;
+    color : white;
+}
