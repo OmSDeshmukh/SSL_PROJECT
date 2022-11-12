@@ -210,6 +210,7 @@
                 {
                     $venue = $_POST['venue'] ; 
                     $time = $_POST['time'];
+                    $day=$_POST['day'];
                     $conn = new mysqli("localhost" , "root" , "" , "SSLPROJECT");
                     $sql = "SELECT venue , time_ FROM fixtures WHERE venue = '$venue' and time_ = '$time' and day_ = '$day' " ;
                     $result = $conn->query($sql);
@@ -228,7 +229,7 @@
                         $sport = $_POST['sport'];
                         $venue = $_POST['venue'] ;
                         $time = $_POST['time'];
-                        
+                        $day=$_POST['day'];
                         $conn = new mysqli("localhost" , "root" , "" , "SSLPROJECT");
                         $sql = "INSERT INTO fixtures (clg1 , clg2 , sport , venue , time_, day_) VALUES('$clg1','$clg2','$sport','$venue','$time','$day')";
                         if($conn->query($sql)===TRUE)
